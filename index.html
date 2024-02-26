@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODIGY_WD_04 - WEATHER APP</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- google fonts -->
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="search a city" spellcheck="false">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <div class="error">
+                <p>Invalid Input: Please ensure you input the correct spelling of your city.</p>
+            </div>
+            <div class="weather">
+                <div class="weather-icon"></div>
+                <h1 class="temperature">27°c</h1>
+                <h2 class="city">Enugu State</h2>
+                <div class="weather-details">
+                    <div class="weather-col">
+                        <i class="fa-solid fa-water"></i>
+                        <div>
+                            <p class="humidity">60%</p>
+                            <p>humidity</p>
+                        </div>
+                    </div>
+                    <div class="weather-col">
+                        <i class="fa-solid fa-wind"></i>
+                        <div>
+                            <p class="wind">20 km/h</p>
+                            <p>wind speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #121111;
+    overflow-x: hidden;
+}
+.container{
+    padding: 50px 0;
+}
+.card{
+    width: 90%;
+    max-width: 400px;
+    border-radius: 50px;
+    background: #111212;
+    box-shadow: 2px 2px 10px  rgba(0, 254, 186, 0.9);
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    border: 2px solid #00feba;
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    border: none;
+    outline: none;
+    background-color: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 20px;
+    font-size: 18px;
+    padding-right: 25px;
+}
+.search button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: -80px;
+    cursor: pointer;
+}
+.search button i{
+    font-size: 20px;
+}
+
+.weather-icon{
+    font-size: 80px;
+    margin-top: 30px;
+    color: #fff;
+}
+.weather h1{
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #fff;
+}
+.weather h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -15px;
+    color: #fff;
+}
+.weather-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    margin-top: 50px;
+}
+.weather-col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #fff;
+}
+.weather-col i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.humidity{
+    font-size: 20px;
+    margin-top: -6px;
+    color: #fff;
+}
+.wind{
+    font-size: 20px;
+    margin-top: -6px;
+    color: #fff;
+}
+
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    color: red;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 0px 0;
+    }
+}
